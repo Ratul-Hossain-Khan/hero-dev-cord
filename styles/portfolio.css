@@ -1,8 +1,46 @@
-/*body {
-    background-color: aqua;
-    }*/   
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* shared style*/
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+header {
+  background-color: #157683;   
+  padding-top: 50px;
+}
+
+/*main styles*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
