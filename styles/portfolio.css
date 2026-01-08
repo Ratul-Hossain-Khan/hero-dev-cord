@@ -14,6 +14,27 @@ header {
   padding-top: 50px;
 }
 
+.logo h2{
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-orenge {
+  color: #fd6e0a;
+}
+
+.btn {
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px; 
+  padding: 18px 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
 /*main styles*/
 nav
 {
@@ -21,12 +42,25 @@ nav
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
-  color: white;
+  color: rgb(255, 255, 255);
   width: 75%;
   margin: 0px auto;
+  max-width: 1140px;
 }
 
-
+nav .menu{
+  list-style: none;
+  display: flex;
+  gap: 51px;
+  align-items: center;
+}
+nav .menu li a{
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
 
 
 
